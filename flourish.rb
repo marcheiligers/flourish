@@ -4,7 +4,7 @@ require 'selenium-webdriver'
 require 'thread'
 require 'io/console'
 
-BASE_URL = 'https://en.wikipedia.org/wiki/'
+BASE_URL = 'http://localhost:3000'
 MAX_LINKS = 30
 CSS_SELECTOR = 'a:not(.mw-jump-link)'
 SLEEPS = {
